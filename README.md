@@ -4,11 +4,10 @@ Migrate album assets between immich accounts
 
 ```
 ./import.albums -c immich.testuser.config
-~~~
+```
 
 output:
-~~~
-
+```
 -=-=- Have the new albums been created in the target account? -=-=-
 
 Control-C to exit. Enter to continue.
