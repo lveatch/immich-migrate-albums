@@ -3,7 +3,7 @@ Migrate album assets between immich accounts
 
 **!!! This has only been tested on Ubuntu OSes, but should work on other linux based systems !!!**
 
-<ins>I recommend using the new docker container [immich-migrate-tools](https://github.com/lveatch/immich-migrate-tools) for migrating albums.</ins>
+<ins>I recommend using the new docker image [immich-migrate-tools](https://github.com/lveatch/immich-migrate-tools) for migrating albums.</ins>
 
 ## Overview
 Exports album assets from one immich account to another account. This can be between two accounts on the same instance or seperate instances. Matching between accounts is done on asset name and created date/time (fileCreatedAt) attribute as determined by Immich with the hopes of dealing with possible duplicate asset names.
